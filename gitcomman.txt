@@ -1,0 +1,35 @@
+    1  rpm -q docker
+    2  rpm -q podman
+    3  rpm -q ssh
+    4  rpm -q sshd
+    5  systemctl status sshd
+    6  ip -a
+    7  ip address
+    8  git
+    9  git init
+   10  git --version
+   11  mkdir git_for_devops
+   12  cd git_for_devops/
+   13  git init
+   14  ls
+   15  ls -a
+   16  git status
+   17  touch testing.py
+   18  vi testing.py
+   19  git status
+   20  git add testing.py
+   21  git status
+   22  git rm --cached testing.py 
+   23  git status
+   24  dit add testing.py 
+   25  git add testing.py 
+   26  git status
+   27  git commit -m "added testing file "
+   28  git status
+   29  ls
+   30  rm testing.py
+   31  ls
+   32  git status
+   33  git restore testing.py
+   34  cat history 
+   35  history > gitcomman.txt
